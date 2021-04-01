@@ -1,0 +1,63 @@
+[CENTER][IMG]http://i.imgur.com/BE3pE0l.png[/IMG][/CENTER]
+
+[CODE]*** Disclaimer
+I am not responsible for any damage you made to your device
+You have been warned[/CODE]
+
+
+[SIZE=4]crDroid is designed to increase performance and reliability over stock Android for your device also attempting to bringing many of the best features existent today[/SIZE]
+
+
+[SIZE=5]Features:[/SIZE]
+[LIST]
+[*]SELinux enforcing
+[*]Improved Performance
+[*]Flip cover working
+[*]Touchscreen input disabled while using SPen
+[*]SPen tilt orientation working
+[*]Latest Linux 4.14.x kernel
+[*]AES-256-XTS FBE encryption
+[*][URL='https://github.com/crdroidandroid/crdroid_features/blob/11.0/README.mkdn']CrDroid Features List[/URL]
+[/LIST]
+
+[SIZE=5][B]Flashing Instructions:[/B][/SIZE]
+[HIDE]
+[SIZE=4][B]Pre-installation:[/B][/SIZE]
+[LIST]
+[*][S]TWRP ([URL='https://forum.xda-developers.com/t/recovery-official-twrp-for-galaxy-tab-s6-lite.4166985/']Download from here[/URL])[/S] edit:TWRP got discontinued, flash Lineage recovery either from my AFH/Github or [URL='https://github.com/Linux4/lineage_OTA/releases']Linux4 version[/URL]
+[*]gapps ([URL='https://bitgapps.github.io/']BitGapps[/URL]/[URL='https://opengapps.org/']OpenGapps[/URL]) or MicroG ([URL='https://github.com/friendlyneighborhoodshane/minmicrog_releases/releases']Download from here[/URL])
+[*]Magisk ([URL='https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445']Download from here[/URL])
+[/LIST]
+
+[SIZE=4][B]First time installation:[/B][/SIZE]
+[LIST]
+[*]Boot to LOS recovery
+[*]Format Data
+[*]Flash CrDroid
+[*]Flash Magisk (Optional) and Gapps/MicroG (Optional)
+[/LIST]
+[/HIDE]
+
+[SIZE=5]Download:[/SIZE]
+[URL='https://androidfilehost.com/?w=files&flid=322304']AndroidFileHosts[/URL]
+Github Mirror(TBA)
+
+[SIZE=5]Sources:[/SIZE]
+[B]ROM:[/B] [URL]https://github.com/crdroidandroid[/URL]
+[B]Source Code:[/B] [URL]https://github.com/gta4xl[/URL]
+
+
+[SIZE=5]Known issues:[/SIZE]
+[LIST]
+[*]Keyboard numpad on landscape mode
+[*]You tell me
+[/LIST]
+
+[SIZE=5]Special Thanks to:[/SIZE]
+[USER=10467607]@Linux4[/USER]
+
+[URL='https://t.me/gta4xl'][SIZE=4]Telegram Support Group[/SIZE][/URL]
+
+[SIZE=3][URL='https://crdroid.net']Visit official website @ crDroid.net[/URL]
+[URL='https://t.me/crDroidAndroid']crDroid Community Telegram[/URL]
+[URL='https://www.paypal.me/crdroidandroid']Donate to CrDroid[/URL][/SIZE]
