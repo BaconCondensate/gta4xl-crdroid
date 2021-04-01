@@ -1,63 +1,172 @@
-[CENTER][IMG]http://i.imgur.com/BE3pE0l.png[/IMG][/CENTER]
+![alt text][logo]
 
-[CODE]*** Disclaimer
-I am not responsible for any damage you made to your device
-You have been warned[/CODE]
+  [logo]:https://crdroid.net/img/logo.png ""
+* Below features are as of 26 December, 2020 in the crDroidAndroid source.
+* Few of them are specific to certain devices - e.g. button settings, fingerprint vibration toggle, etc.
 
+Translations
+----------
+You can contribute to the ROM by submitting translations with few easy clicks below:
 
-[SIZE=4]crDroid is designed to increase performance and reliability over stock Android for your device also attempting to bringing many of the best features existent today[/SIZE]
+| Project name | Translation status | Translation link |
+|    :---:     |     :---:      |     :---:     |
+| crDroid Settings   | [![Crowdin](https://d322cqt584bo4o.cloudfront.net/crdroid-translation/localized.svg)](https://crowdin.com/project/crdroid-translation)     | [help translate](https://crowdin.com/project/crdroid-translation)    |
+| Frameworks base     | [![Crowdin](https://d322cqt584bo4o.cloudfront.net/crdroid-frameworks-base/localized.svg)](https://crowdin.com/project/crdroid-frameworks-base)       | [help translate](https://crowdin.com/project/crdroid-frameworks-base)      |
+| crDroid Home     | [![Crowdin](https://d322cqt584bo4o.cloudfront.net/crdroid-home/localized.svg)](https://crowdin.com/project/crdroid-home)       | [help translate](https://crowdin.com/project/crdroid-home)      |
 
+General
+----------
+* Android 11.0.0 r19
+* Pixel look and feel
+* crDroid Settings - Our own chamber of secrets with below customization settings
+* OTA notification for officially supported devices
+* crDroid Music - Music player based on Phonograph
+* crDroid Home - Revamped and customized launcher with Google now integration 
+* ART and BIONIC optimizations 
 
-[SIZE=5]Features:[/SIZE]
-[LIST]
-[*]SELinux enforcing
-[*]Improved Performance
-[*]Flip cover working
-[*]Touchscreen input disabled while using SPen
-[*]SPen tilt orientation working
-[*]Latest Linux 4.14.x kernel
-[*]AES-256-XTS FBE encryption
-[*][URL='https://github.com/crdroidandroid/crdroid_features/blob/11.0/README.mkdn']CrDroid Features List[/URL]
-[/LIST]
+Status Bar
+----------
+* Icons
+    * Status Bar icons toggle
+    * Clock style
+    * Clock & date customizations
+    * Network Traffic monitor and customizations
+    * Data disabled indicator
+    * 4G icon toggle
+    * Roaming indicator toggle
+    * BT battery status toggle
+    * VoLTE style toggle
+    * VoWiFi style toggle
+* Battery customizations
+    * Battery style and percentage customizations
+    * Battery bar customizations
+* Gestures
+    * Tap to sleep toggle
+    * Brightness control
+    * Quick pulldown customizations
 
-[SIZE=5][B]Flashing Instructions:[/B][/SIZE]
-[HIDE]
-[SIZE=4][B]Pre-installation:[/B][/SIZE]
-[LIST]
-[*][S]TWRP ([URL='https://forum.xda-developers.com/t/recovery-official-twrp-for-galaxy-tab-s6-lite.4166985/']Download from here[/URL])[/S] edit:TWRP got discontinued, flash Lineage recovery either from my AFH/Github or [URL='https://github.com/Linux4/lineage_OTA/releases']Linux4 version[/URL]
-[*]gapps ([URL='https://bitgapps.github.io/']BitGapps[/URL]/[URL='https://opengapps.org/']OpenGapps[/URL]) or MicroG ([URL='https://github.com/friendlyneighborhoodshane/minmicrog_releases/releases']Download from here[/URL])
-[*]Magisk ([URL='https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445']Download from here[/URL])
-[/LIST]
+Quick Settings
+----------
+* Tiles
+    * Colums and Rows customizations
+    * Tile title toggle
+    * Vibrate on touch toggle
+* Miscellaneous
+    * Battery style
+    * Battery location
+    * Battery percentage
+    * Battery estimate
+    * Custom header image
+    * Clock show/hide toggle
+    * Brightness slider
+    * Auto brightness toggle
 
-[SIZE=4][B]First time installation:[/B][/SIZE]
-[LIST]
-[*]Boot to LOS recovery
-[*]Format Data
-[*]Flash CrDroid
-[*]Flash Magisk (Optional) and Gapps/MicroG (Optional)
-[/LIST]
-[/HIDE]
+Lock Screen
+----------
+* Interface
+    * Statusbar toggle
+    * Lock icon toggle
+    * Weather
+    * Media cover art toggle
+    * Media cover art filter
+    * Music visualizer
+    * Charging animation styles
+    * Battery info toggle
 
-[SIZE=5]Download:[/SIZE]
-[URL='https://androidfilehost.com/?w=files&flid=322304']AndroidFileHosts[/URL]
-Github Mirror(TBA)
+* Gestures
+    * Tap to sleep toggle
+    * Fingerprint authentication vibration toggle
+    * Fingerprint error vibration toggle
 
-[SIZE=5]Sources:[/SIZE]
-[B]ROM:[/B] [URL]https://github.com/crdroidandroid[/URL]
-[B]Source Code:[/B] [URL]https://github.com/gta4xl[/URL]
+* Miscellaneous
+    * Power menu toggle
+    * Secure power menu toggle
+    * QS Tiles visibility toggle
 
+Navigation
+----------
+* Navigation bar toggle
+* Stock navbar settings
+    * System navigation type
+      * Gesture nav (with options)
+      * 2-button navigation
+      * 3-button navigation
+    * Show arrows while typing toggle
+    * Layout
+      * Normal
+      * Compact
+      * Left-leaning
+      * Right-leaning
+    * Invert layout
+    * Back long press action
+    * Home long press action
+    * Home double tap action
+    * Recents long press action
+    * Edge long swipe action (gesture nav option)
+* Gestures
+    * Touch screen gestures
+    * System gestures
 
-[SIZE=5]Known issues:[/SIZE]
-[LIST]
-[*]Keyboard numpad on landscape mode
-[*]You tell me
-[/LIST]
+Buttons
+----------
+* Power button
+  * Power menu customizations
+    * Advanced restart options
+      * Advanced restart toggle
+      * Secured lockscreen toggle
+  * End call with power button
+  * Long press power button for torch
+  * Automatically turn torch off
+* Volume buttons
+  * Screenshot types
+  * Wake device with HW non-capacitive button
+  * Answer call with volume button
+  * Control playback with volume buttons
+  * Keyboard cursor control with volume buttons
+  * Reorient volume keys on rotation change
 
-[SIZE=5]Special Thanks to:[/SIZE]
-[USER=10467607]@Linux4[/USER]
+User Interface
+----------
+* Smart Pixels
+* Navbar styles
+* Weather sevice
 
-[URL='https://t.me/gta4xl'][SIZE=4]Telegram Support Group[/SIZE][/URL]
+Notifications
+----------
 
-[SIZE=3][URL='https://crdroid.net']Visit official website @ crDroid.net[/URL]
-[URL='https://t.me/crDroidAndroid']crDroid Community Telegram[/URL]
-[URL='https://www.paypal.me/crdroidandroid']Donate to CrDroid[/URL][/SIZE]
+* Heads up
+  * Heads up toggle
+  * Less boring toggle
+* Light brightness settings
+  * Battery light
+  * Notification light
+
+Sound
+----------
+* Charging sounds
+* Screenshot sound toggle
+* Live volume steps customization
+* Volume Panel
+* Adaptive playback
+* When headset connected, incoming call plays on option
+
+Misc
+----------
+* Show CPU info overlay
+* Gaming mode
+* Smart charging
+* Swipe to screenshot
+* Toast icon toggle
+* Pocket detection - prevents device interaction when inside pocket
+
+About crDroid
+----------
+* Current changelog
+* Official website
+* Translations
+* Share crDroid
+* Support us
+* Github
+* Telegram
+* Updates (directly via OTA)
+* The drill
